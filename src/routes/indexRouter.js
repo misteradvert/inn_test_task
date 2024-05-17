@@ -8,8 +8,6 @@ router.get('/', (req, res) => {
 });
 
 router.get('/info/:id', (req, res) => {
-  // const { id } = req.params.id;
-  // res.render('ResultPage', initState);
   res.render('InfoPage');
 });
 
