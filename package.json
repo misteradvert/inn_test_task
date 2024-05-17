@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
     "dev": "babel-node src/server.js",
     "start": "webpack -d eval-source-map && babel-node src/server.js",
     "webpack": "webpack -wd eval-source-map",
