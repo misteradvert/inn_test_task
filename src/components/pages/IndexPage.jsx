@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-export default function IndexPage() {
+function IndexPage() {
   const [input, setInput] = useState('');
   const [data, setData] = useState('');
 
@@ -57,3 +57,5 @@ export default function IndexPage() {
     </Box>
   );
 }
+
+export default IndexPage;

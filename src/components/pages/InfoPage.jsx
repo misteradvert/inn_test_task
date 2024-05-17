@@ -17,7 +17,7 @@ function InfoPage() {
 
   const handleModalConfirm = () => {
     window.open(`https://yandex.ru/maps/?text=${data.unrestricted_value}`);
-    // setModalVisible(false);
+    setModalVisible(false);
   };
 
   const handleModalCancel = () => {
